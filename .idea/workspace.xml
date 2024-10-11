@@ -5,29 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="acddfc01-77c0-447b-bc07-609b34d84af3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/app/api/external_api.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/api/maps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/app.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/database/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/gps/map_handler.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/models/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/models/booking.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/models/trip.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/models/user.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/route_master.kv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/services/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/services/booking_service.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/services/route_service.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/ui/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/ui/booking_screen.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/ui/main_screen.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/ui/route_screen.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/utils/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/utils/helpers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/utils/validators.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/loader.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/logging.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/RouteMaster.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/RouteMaster.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/api/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/route_master.kv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/ui/booking_screen.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/ui/booking_screen.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/ui/main_screen.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/ui/main_screen.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/ui/route_screen.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/ui/route_screen.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,10 +44,13 @@
   "keyToString": {
     "Python.app.executor": "Run",
     "Python.ip.executor": "Run",
+    "Python.loader.executor": "Run",
     "Python.map_handler.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main"
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
   <component name="RecentsManager">
