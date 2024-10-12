@@ -27,17 +27,13 @@ else:
 response = requests.get(BASE_URL, params=params)
 data = response.json()
 
-# Выводим весь ответ для отладки
-print(data)  # Посмотрите, что возвращает API
 
-# Проверка наличия ошибки в ответе
+# Проверка наличия ошибок
 if 'error' in data:
     print("Ошибка от API:", data['error'])
 else:
-    # Обработка полученных данных
     if data.get('response', {}).get('GeoObjectCollection', {}).get('featureMember'):
         location = data['response']['GeoObjectCollection']['featureMember'][0]['GeoObject']['Point']['pos']
         longitude, latitude = location.split()  # Разделяем долготу и широту
-        print(f"Широта: {latitude}, Долгота: {longitude}")
     else:
         print("Нет данных для указанного адреса.")

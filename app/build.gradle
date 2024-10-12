@@ -1,0 +1,36 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 35  // Версия SDK для компиляции
+
+    defaultConfig {
+        applicationId "Route Master"  // Замените на ваш идентификатор приложения
+        minSdkVersion 21  // Минимальная версия SDK
+        targetSdkVersion 31  // Целевая версия SDK
+        versionCode 1  // Версия кода приложения
+        versionName "1.0"  // Версия приложения
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    // Укажите путь к библиотекам, если необходимо
+    sourceSets {
+        main {
+            java.srcDirs += 'src/main/java'  // Путь к Java-коду, если есть
+            jniLibs.srcDirs = ['libs']  // Путь к библиотекам, если есть
+        }
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])  // Включить все JAR-файлы в папке libs
+
+    // Добавьте зависимости Kivy, если они требуются
+    implementation 'org.kivy:kivy:2.1.0' // Замените на актуальную версию Kivy
+    implementation 'org.kivy:kivy_android:1.11.1' // Замените на актуальную версию Kivy для Android
+}

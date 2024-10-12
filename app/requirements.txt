@@ -1,0 +1,6 @@
+kivy==2.1.0              # Версия Kivy
+requests                 # Для работы с HTTP-запросами
+plyer                   # Для работы с геолокацией и другими функциями
+kivy-garden.mapview     # Для работы с картами
+python-dotenv
+logging
