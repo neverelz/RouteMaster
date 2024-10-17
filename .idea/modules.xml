@@ -3,6 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/RouteMaster.iml" filepath="$PROJECT_DIR$/.idea/RouteMaster.iml" />
+      <module fileurl="file://$PROJECT_DIR$/routemaster/src/androidTest/androidTest.iml" filepath="$PROJECT_DIR$/routemaster/src/androidTest/androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/routemaster/src/main/main.iml" filepath="$PROJECT_DIR$/routemaster/src/main/main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/routemaster/src/test/test.iml" filepath="$PROJECT_DIR$/routemaster/src/test/test.iml" />
     </modules>
   </component>
 </project>
